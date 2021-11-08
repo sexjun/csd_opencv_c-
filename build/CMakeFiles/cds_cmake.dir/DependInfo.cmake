@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/chendongsheng/github/opencv_example/main.cpp" "CMakeFiles/cds_cmake.dir/main.cpp.o" "gcc" "CMakeFiles/cds_cmake.dir/main.cpp.o.d"
+  "/Users/chendongsheng/github/opencv_example/src/cds_imgTool.cpp" "CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o" "gcc" "CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o.d"
   )
 
 # Targets to which this target links.

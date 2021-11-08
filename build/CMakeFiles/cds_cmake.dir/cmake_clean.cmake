@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cds_cmake.dir/main.cpp.o"
   "CMakeFiles/cds_cmake.dir/main.cpp.o.d"
+  "CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o"
+  "CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o.d"
   "cds_cmake"
   "cds_cmake.pdb"
 )

@@ -551,12 +551,12 @@ CMakeFiles/NightlyTest.dir/clean:
 CMakeFiles/cds_cmake.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cds_cmake.dir/build.make CMakeFiles/cds_cmake.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cds_cmake.dir/build.make CMakeFiles/cds_cmake.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chendongsheng/github/opencv_example/build/CMakeFiles --progress-num=1,2 "Built target cds_cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chendongsheng/github/opencv_example/build/CMakeFiles --progress-num=1,2,3 "Built target cds_cmake"
 .PHONY : CMakeFiles/cds_cmake.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cds_cmake.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chendongsheng/github/opencv_example/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chendongsheng/github/opencv_example/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cds_cmake.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chendongsheng/github/opencv_example/build/CMakeFiles 0
 .PHONY : CMakeFiles/cds_cmake.dir/rule

@@ -547,6 +547,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cds_cmake.dir/build.make CMakeFiles/cds_cmake.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/cds_imgTool.o: src/cds_imgTool.cpp.o
+.PHONY : src/cds_imgTool.o
+
+# target to build an object file
+src/cds_imgTool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cds_cmake.dir/build.make CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o
+.PHONY : src/cds_imgTool.cpp.o
+
+src/cds_imgTool.i: src/cds_imgTool.cpp.i
+.PHONY : src/cds_imgTool.i
+
+# target to preprocess a source file
+src/cds_imgTool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cds_cmake.dir/build.make CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.i
+.PHONY : src/cds_imgTool.cpp.i
+
+src/cds_imgTool.s: src/cds_imgTool.cpp.s
+.PHONY : src/cds_imgTool.s
+
+# target to generate assembly for a file
+src/cds_imgTool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cds_cmake.dir/build.make CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.s
+.PHONY : src/cds_imgTool.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -590,6 +614,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/cds_imgTool.o"
+	@echo "... src/cds_imgTool.i"
+	@echo "... src/cds_imgTool.s"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/local/Cellar/opencv/4.5.3_2/include/opencv4
+CXX_INCLUDES = -I/Users/chendongsheng/github/opencv_example/./include -I/Users/chendongsheng/github/opencv_example/include -isystem /usr/local/Cellar/opencv/4.5.3_2/include/opencv4
 
 CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6 -std=gnu++11
 
