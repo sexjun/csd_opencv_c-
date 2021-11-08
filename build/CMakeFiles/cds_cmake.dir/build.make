@@ -69,24 +69,10 @@ include CMakeFiles/cds_cmake.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cds_cmake.dir/flags.make
 
-CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o: CMakeFiles/cds_cmake.dir/flags.make
-CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o: ../src/cds_imgTool.cpp
-CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o: CMakeFiles/cds_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chendongsheng/github/opencv_example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o -MF CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o.d -o CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o -c /Users/chendongsheng/github/opencv_example/src/cds_imgTool.cpp
-
-CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chendongsheng/github/opencv_example/src/cds_imgTool.cpp > CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.i
-
-CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chendongsheng/github/opencv_example/src/cds_imgTool.cpp -o CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.s
-
 CMakeFiles/cds_cmake.dir/main.cpp.o: CMakeFiles/cds_cmake.dir/flags.make
 CMakeFiles/cds_cmake.dir/main.cpp.o: ../main.cpp
 CMakeFiles/cds_cmake.dir/main.cpp.o: CMakeFiles/cds_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chendongsheng/github/opencv_example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cds_cmake.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chendongsheng/github/opencv_example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cds_cmake.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cds_cmake.dir/main.cpp.o -MF CMakeFiles/cds_cmake.dir/main.cpp.o.d -o CMakeFiles/cds_cmake.dir/main.cpp.o -c /Users/chendongsheng/github/opencv_example/main.cpp
 
 CMakeFiles/cds_cmake.dir/main.cpp.i: cmake_force
@@ -97,16 +83,30 @@ CMakeFiles/cds_cmake.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cds_cmake.dir/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chendongsheng/github/opencv_example/main.cpp -o CMakeFiles/cds_cmake.dir/main.cpp.s
 
+CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o: CMakeFiles/cds_cmake.dir/flags.make
+CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o: ../src/cds_imgTool.cpp
+CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o: CMakeFiles/cds_cmake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chendongsheng/github/opencv_example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o -MF CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o.d -o CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o -c /Users/chendongsheng/github/opencv_example/src/cds_imgTool.cpp
+
+CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chendongsheng/github/opencv_example/src/cds_imgTool.cpp > CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.i
+
+CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chendongsheng/github/opencv_example/src/cds_imgTool.cpp -o CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.s
+
 # Object files for target cds_cmake
 cds_cmake_OBJECTS = \
-"CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o" \
-"CMakeFiles/cds_cmake.dir/main.cpp.o"
+"CMakeFiles/cds_cmake.dir/main.cpp.o" \
+"CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o"
 
 # External object files for target cds_cmake
 cds_cmake_EXTERNAL_OBJECTS =
 
-cds_cmake: CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o
 cds_cmake: CMakeFiles/cds_cmake.dir/main.cpp.o
+cds_cmake: CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o
 cds_cmake: CMakeFiles/cds_cmake.dir/build.make
 cds_cmake: /usr/local/lib/libopencv_gapi.4.5.3.dylib
 cds_cmake: /usr/local/lib/libopencv_stitching.4.5.3.dylib

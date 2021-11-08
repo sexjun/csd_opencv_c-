@@ -1,12 +1,12 @@
 [
 {
   "directory": "/Users/chendongsheng/github/opencv_example/build",
-  "command": "/usr/bin/clang++  -I/Users/chendongsheng/github/opencv_example/./include -I/Users/chendongsheng/github/opencv_example/include -isystem /usr/local/Cellar/opencv/4.5.3_2/include/opencv4 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6 -std=gnu++11 -o CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o -c /Users/chendongsheng/github/opencv_example/src/cds_imgTool.cpp",
-  "file": "/Users/chendongsheng/github/opencv_example/src/cds_imgTool.cpp"
+  "command": "/usr/bin/clang++  -I/Users/chendongsheng/github/opencv_example/./include -I/Users/chendongsheng/github/opencv_example/include -isystem /usr/local/Cellar/opencv/4.5.3_2/include/opencv4 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6 -std=gnu++11 -o CMakeFiles/cds_cmake.dir/main.cpp.o -c /Users/chendongsheng/github/opencv_example/main.cpp",
+  "file": "/Users/chendongsheng/github/opencv_example/main.cpp"
 },
 {
   "directory": "/Users/chendongsheng/github/opencv_example/build",
-  "command": "/usr/bin/clang++  -I/Users/chendongsheng/github/opencv_example/./include -I/Users/chendongsheng/github/opencv_example/include -isystem /usr/local/Cellar/opencv/4.5.3_2/include/opencv4 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6 -std=gnu++11 -o CMakeFiles/cds_cmake.dir/main.cpp.o -c /Users/chendongsheng/github/opencv_example/main.cpp",
-  "file": "/Users/chendongsheng/github/opencv_example/main.cpp"
+  "command": "/usr/bin/clang++  -I/Users/chendongsheng/github/opencv_example/./include -I/Users/chendongsheng/github/opencv_example/include -isystem /usr/local/Cellar/opencv/4.5.3_2/include/opencv4 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6 -std=gnu++11 -o CMakeFiles/cds_cmake.dir/src/cds_imgTool.cpp.o -c /Users/chendongsheng/github/opencv_example/src/cds_imgTool.cpp",
+  "file": "/Users/chendongsheng/github/opencv_example/src/cds_imgTool.cpp"
 }
 ]
